@@ -1,0 +1,185 @@
+:root {
+  --mainColor: #390551;
+  --secondaryColor: #652f7e;
+  --acsentColor: #ff7a00;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 3000px;
+  font-family: "ubuntu", sans-serif;
+}
+
+section h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+/* Navbar */
+
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+  transition: 0.8s;
+}
+
+/* End Navbar */
+
+/* Hero */
+
+.color-acsent {
+  color: var(--acsentColor);
+}
+
+#hero {
+  color: #ffffff;
+  min-height: 110vh;
+  padding-top: 75px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero h1 {
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 1.1 rem;
+  font-weight: 300;
+}
+
+/* CTA */
+
+.btn-custom1 {
+  background-color: var(--acsentColor);
+  text-align: center;
+  color: #ffffff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 8);
+  color: #652f7e;
+}
+
+.btn-custom2 {
+  background-color: var(--acsentColor);
+  text-align: center;
+  color: #ffffff;
+  min-width: 100px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btn-custom2:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 8);
+  color: #652f7e;
+}
+
+.cv {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.social-icon svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+.social-icon-footer svg {
+  margin-right: 0.7em;
+}
+
+/* End Hero */
+
+/* Skill */
+
+hr {
+  width: 50%;
+  height: 5px;
+  color: var(--acsentColor);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  opacity: 100%;
+}
+
+#skill {
+  min-height: 600px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+#skill img {
+  width: 12%;
+  margin: 14px;
+}
+
+#skill .card {
+  background-color: #bb8ecf;
+  height: 340px;
+}
+
+#skill .card:hover {
+  background-color: var(--acsentColor);
+}
+
+.skill-konten {
+  margin-top: 120px;
+}
+
+/* End Skill */
+
+/* Sertificate */
+
+#sertificate {
+  margin-top: -325px;
+  padding-top: 270px;
+  padding-bottom: 80px;
+  background-color: var(--mainColor);
+}
+
+#sertificate p,
+a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+#sertificate img {
+  width: 49%;
+  padding: 15px;
+}
+
+/* End Sertificate */
+
+/* Portofolio */
+
+#portfolio .container {
+  padding: 80px 10px;
+  background-color: var(--secondaryColor);
+}
+
+/* End Portofolio */
+
+/* Footer */
+
+footer img {
+  width: 100px;
+}
+
+/* End Footer */
